@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a <br /><span>Random Password</span></h1>
+      <div class="passBox">
+        <input type="text" id="password" placeholder="Password" />
+        <img id="copyPass" src="images/copy.png" alt="pic" />
+      </div>
+      <button id="passGenerator">
+        <img src="images/generate.png" />Generate Password
+      </button>
+      <br />
+      <div class="userSelect">
+        <label for="uppercase">
+          <input type="checkbox" id="uppercase" />
+          Add Uppercase
+        </label>
+        <label for="lowercase"
+          >
+          <input type="checkbox" id="lowercase" />
+          Add lowercase
+        </label>
+        <label for="numbers"
+          >
+          <input type="checkbox" id="numbers" />
+          Add numbers
+        </label>
+        <label for="special"
+          >
+          <input type="checkbox" id="special" />
+          Add special character
+        </label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
